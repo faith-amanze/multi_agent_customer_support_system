@@ -573,7 +573,7 @@ permissions this project needs:
 | `bedrock-agentcore:ListMemories` | `AccessDeniedException` | Task 4 cannot be verified |
 | `s3vectors:CreateVectorBucket` | `AccessDeniedException` | Original CloudFormation template (with S3 Vectors) could not deploy; a modified template with those resources removed was used instead (`starter_stack_no_vectors.yaml`) |
 
-**Net effect:** `python tests/test_agent.py all` currently scores **40/120 (33%)** - all 40
+**Net effect:** `python tests/test_agent.py all` currently scores **45/120 (33%)** - all 40
 points are Task 2, the only task gradeable without live AWS. `.env` cannot be populated with an
 `AGENTCORE_RUNTIME_ARN`, `GUARDRAIL_ID`, or KB IDs, and the required X-Ray Service Map
 screenshot cannot be produced, because nothing can be deployed. This has been escalated to
