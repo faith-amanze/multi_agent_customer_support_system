@@ -587,3 +587,7 @@ Udacity support (account: `775763049112`, role: `voclabs`) with the exact errors
 4. `python src/agent_orchestrator.py test` → screenshot the X-Ray Service Map
 
 I'm happy to complete these and resubmit as soon as the account issue is resolved.
+
+### Test Run Evidence
+![Test results part 1 - Tasks 2-5](docs/evidence/test_results_part1.png)
+![Test results part 2 - Task 6 + final score](docs/evidence/test_results_part2.png)
