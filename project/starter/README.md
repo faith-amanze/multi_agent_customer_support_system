@@ -556,3 +556,13 @@ The Orders table key is `customer_id` + `order_id` - pass both to `get_item`.
 
 ### Note
 In the local `test` run, the discount calculation scenario is answered with the guardrail's blocked message, because the required "pricing negotiations" denied topic also matches discount and price wording.
+
+### Per-task test results
+![Task 2](docs/evidence/task2_pass.png)
+![Task 3](docs/evidence/task3_deploy_pass.png)
+![Task 4](docs/evidence/task4_memory_pass.png)
+![Task 5](docs/evidence/task5_parallel_pass.png)
+![Task 6](docs/evidence/task6_observability_pass.png)
+
+### Orchestrator test run
+Full output of `python src/agent_orchestrator.py test`: [orchestrator_test_output.txt](docs/evidence/orchestrator_test_output.txt)
