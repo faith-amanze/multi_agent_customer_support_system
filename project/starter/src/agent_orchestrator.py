@@ -1148,7 +1148,6 @@ def configure_memory(runtime_arn: str) -> str:
             print(f"AgentCore Memory already exists: {memory_arn}")
             return memory_arn
 
-    # TODO: Create AgentCore Memory
     response = agentcore_control.create_memory(
         name=memory_name,
         description="NovaMart session-scoped conversational memory (rolling summaries).",
