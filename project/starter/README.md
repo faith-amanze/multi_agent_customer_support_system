@@ -566,3 +566,6 @@ In the local `test` run, the discount calculation scenario is answered with the 
 
 ### Orchestrator test run
 Full output of `python src/agent_orchestrator.py test`: [orchestrator_test_output.txt](docs/evidence/orchestrator_test_output.txt)
+
+### Memory strategy
+![Memory strategy](docs/evidence/memory_strategy.png)
