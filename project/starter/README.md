@@ -575,3 +575,6 @@ Full output of `python src/agent_orchestrator.py test`: [orchestrator_test_outpu
 ![Returns KB](docs/evidence/kb_returns.png)
 ![Shipping KB](docs/evidence/kb_shipping.png)
 ![Vector store bucket outputs](docs/evidence/vector_store_bucket.png)
+
+### Orchestrator test run (X-Ray traces published)
+![Orchestrator test run](docs/evidence/orchestrator_test_run.png)
