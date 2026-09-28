@@ -569,3 +569,9 @@ Full output of `python src/agent_orchestrator.py test`: [orchestrator_test_outpu
 
 ### Memory strategy
 ![Memory strategy](docs/evidence/memory_strategy.png)
+
+### Knowledge Bases (S3 Vectors, synced)
+![Warranty KB](docs/evidence/kb-warranty.png)
+![Returns KB](docs/evidence/kb_returns.png)
+![Shipping KB](docs/evidence/kb_shipping.png)
+![Vector store bucket outputs](docs/evidence/vector_store_bucket.png)
