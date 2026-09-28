@@ -550,8 +550,6 @@ The Orders table key is `customer_id` + `order_id` - pass both to `get_item`.
 ## Submission Evidence
 
 ### Test results (120/120)
-![Test results 1](docs/evidence/test_results_part1.png)
-![Test results 2](docs/evidence/test_results_part2.png)
 ![Test results 3](docs/evidence/test_results_part3.png)
 
 ### X-Ray Service Map
